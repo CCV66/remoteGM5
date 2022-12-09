@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    height: 600px;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 13; 
+    grid-row-start: 1;
+    height: 25vh;
+} 
+.content {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    height:50vh;
+    background: pink;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    height:15vh;
+    background: greenyellow;
+}
+
+
+.GM5 {
+    color: blue;
+    text-align: center;
+    font-family: Impact;
+}
+.Asso {
+    text-align: center;
+    font-size: 15px;
+}
